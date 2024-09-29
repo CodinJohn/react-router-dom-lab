@@ -1,9 +1,8 @@
-// src/components/MailboxDetails.jsx
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
 const MailboxDetails = ({ mailboxes }) => {
-    const { mailboxId } = useParams(); // Access the URL parameter
+    const { mailboxId } = useParams(); 
     const selectedBox = mailboxes.find((mailbox) => mailbox._id === Number(mailboxId));
 
     if (!selectedBox) {
@@ -20,4 +19,4 @@ const MailboxDetails = ({ mailboxes }) => {
     );
 };
 
-export default MailboxDetails;
+export default MailboxDetail
