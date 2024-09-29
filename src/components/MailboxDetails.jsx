@@ -19,4 +19,4 @@ const MailboxDetails = ({ mailboxes }) => {
     );
 };
 
-export default MailboxDetail
+export default MailboxDetails;
